@@ -7,7 +7,7 @@ import time
 openai.api_key = 'YOUR_OPENAI_API_KEY'
 
 # Load the CSV data into memory
-df = pd.read_csv('/workspace/ataisc/CSV/ata62223(1).csv)
+df = pd.read_csv('/workspace/ataisc/CSV/ata62223(1).csv')
 
 # Initialize the Flask application
 app = Flask(__name__)
